@@ -1,0 +1,27 @@
+.header_area {
+	background-color: white;
+	padding: 2% 0%;
+	h1 {
+		color: #e76636;
+		margin: 0%;
+		font-weight: 400;
+		span{
+			color: #f1ae9d;
+		}
+	a {
+		text-decoration: none;
+	}
+	}
+	li {
+		display: inline-block;
+		a {
+		color: #bcbcbc;
+		text-decoration: none;
+		font-size: 20px;
+		padding-left: 20px;
+		&:hover {
+			color: #e76636;
+		}
+		}
+	}
+}

@@ -1,0 +1,52 @@
+#photo {
+	.pink {
+		@include rosado;
+	}
+}
+#imagenes {
+	color: #929292;
+	h1 {
+		background-color: #e76636;
+		color: white;
+	}
+	h2, h4 {
+		color: $bg-orange;
+	}
+	.check:before, .check:after {
+		content:"";
+		display: block;
+		clear: both;
+		box-sizing: border-box;
+	}
+	.check {
+		#bottom {
+			margin-bottom: 12%;
+		}
+		img {
+			float: left;
+			width: 20%;
+			margin-top: 5%;
+		}
+		h2 {
+			float:left;
+			width: 80%;
+		}
+	}
+	.col-xs-3 img {
+		width: 100%;
+	}
+	.col-xs-4 {
+		text-align: left;
+		a {
+		background-color: $bg-orange;
+		padding: 2% 3%;
+		color: white;
+		}
+	}
+	.col-xs-10 {
+		img {
+			margin-top: 3%;
+		}
+	}
+
+}
