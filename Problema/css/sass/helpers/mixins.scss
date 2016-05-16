@@ -3,3 +3,27 @@
     width: 100%;
 	background-color: pink;
 }
+@mixin float-left {
+	content:"";
+	display: block;
+	clear: both;
+	box-sizing: border-box;
+}
+@mixin decoracion {
+	text-decoration: none;
+	list-style: none;
+	padding: 0%;
+}
+@mixin dos-colores {
+	background-color: pink;
+	color: $bg-blanco;
+	.container {
+		background-color: $bg-orange;
+		border-left: 15px solid white;
+		border-right: 15px solid white;
+	}
+}
+@mixin fotogaleria {
+	margin-top : 2%;
+	text-align: center;
+}

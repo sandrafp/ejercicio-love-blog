@@ -1,22 +1,26 @@
+// style.home 
+.blog-info {
+	color: #929292;
+	border: 1px solid gray;
+	h4 {
+		color: $bg-orange;
+	}
+}
 #photo {
 	.pink {
 		@include rosado;
 	}
 }
 #imagenes {
-	color: #929292;
 	h1 {
-		background-color: #e76636;
-		color: white;
+		background-color: $bg-orange;
+		color: $bg-blanco;
 	}
-	h2, h4 {
+	h2, {
 		color: $bg-orange;
 	}
 	.check:before, .check:after {
-		content:"";
-		display: block;
-		clear: both;
-		box-sizing: border-box;
+		@include float-left;
 	}
 	.check {
 		#bottom {
@@ -24,8 +28,8 @@
 		}
 		img {
 			float: left;
-			width: 20%;
-			margin-top: 5%;
+			width: $floatleft;
+			margin-top: $margin-top;
 		}
 		h2 {
 			float:left;
@@ -40,7 +44,7 @@
 		a {
 		background-color: $bg-orange;
 		padding: 2% 3%;
-		color: white;
+		color: $bg-blanco;
 		}
 	}
 	.col-xs-10 {
@@ -48,5 +52,26 @@
 			margin-top: 3%;
 		}
 	}
-
+}
+// fin style-home
+// style-about-us 
+.-h1 {
+	@include dos-colores;
+}
+#about-us {
+	.col-xs-8 {
+		#parrafo-right {
+			display: inline-block;
+    		float: right;
+    		width: 67%;
+		}
+	}
+	aside {
+		ul {
+			@include decoracion;
+		}
+		img {
+			@include fotogaleria;
+		}
+	}
 }

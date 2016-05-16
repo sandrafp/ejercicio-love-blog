@@ -1,4 +1,4 @@
-.header_area {
+.header {
 	background-color: white;
 	padding: 2% 0%;
 	h1 {
@@ -20,7 +20,8 @@
 		font-size: 20px;
 		padding-left: 20px;
 		&:hover {
-			color: #e76636;
+			color: $bg-orange;
+			font-weight: 600;
 		}
 		}
 	}

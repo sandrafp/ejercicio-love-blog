@@ -1,13 +1,6 @@
 footer {
-	background-color: pink;
+	@include dos-colores;
 	color: #fcffff;
 	margin-top: $margin-top;
-	.container {
-		background-color: $bg-orange;
-		border-left: 15px solid white;
-		border-right: 15px solid white;
-		h2 {
-			color: white;
-		}
-	}
+	
 }
