@@ -1,0 +1,15 @@
+aside {
+	ul {
+		@include decoracion;
+	}
+	p {
+		width: 70%;
+	}
+	h2 {
+		color: $bg-orange;
+	}
+	.photo-g img {
+		@include fotogaleria;
+		border: 1px solid $bg-orange;
+	}
+}

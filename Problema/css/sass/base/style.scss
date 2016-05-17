@@ -1,10 +1,26 @@
 // style.home 
+section .row {
+	margin-top: 2%;
+}
+h4 {
+	color: $bg-orange;
+}
 .blog-info {
+	margin-top: 2%;
 	color: #929292;
-	border: 1px solid gray;
-	h4 {
-		color: $bg-orange;
+	width: 100%;
+	border: 1px solid $bg-gris;
+	h3 {
+		font-size: 20px;
 	}
+}
+.blog-info:before, .blog-info:after {
+	@include float-left;
+}
+.col-xs-3:hover {
+	-webkit-box-shadow: 2px -4px 25px 0px rgba(50, 50, 50, 0.68);
+	-moz-box-shadow: 2px -4px 25px 0px rgba(50, 50, 50, 0.68);
+	box-shadow: 2px -4px 25px 0px $bg-orange;
 }
 #photo {
 	.pink {
@@ -36,9 +52,6 @@
 			width: 80%;
 		}
 	}
-	.col-xs-3 img {
-		width: 100%;
-	}
 	.col-xs-4 {
 		text-align: left;
 		a {
@@ -53,25 +66,60 @@
 		}
 	}
 }
-// fin style-home
 // style-about-us 
 .-h1 {
 	@include dos-colores;
+	.row {
+		margin-top: 0%;
+	}
 }
 #about-us {
 	.col-xs-8 {
 		#parrafo-right {
 			display: inline-block;
-    		float: right;
-    		width: 67%;
+    	float: right;
+    	width: 67%;
 		}
-	}
-	aside {
-		ul {
-			@include decoracion;
-		}
-		img {
-			@include fotogaleria;
+		blockquote p {
+			color: $bg-orange;
 		}
 	}
 }
+// STYLE-PORTFOLIO
+.categoria {
+	.row {
+	margin-top: 5%;
+	}
+}
+// style-contact 
+.contact {
+	.col-xs-5 {
+		margin-top: 3%;
+		input, textarea {
+			margin-bottom: 3%;
+			border-color: $bg-orange;
+		}
+	}
+}
+// style blog
+.blog {
+	.separador {
+		margin-top: 3%;
+	}
+	button {
+		background-color: $bg-orange;
+		color: white;
+		margin-top: $margin-top;
+		width: 50px;
+		height: 50px;
+	}
+}
+.blog1 {
+		background-image:url("../../images/icon1.png");
+		background-size: 100px;
+		background-position: top left;
+		background-repeat: no-repeat;
+	}
+
+
+

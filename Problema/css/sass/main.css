@@ -30,11 +30,45 @@ footer {
     border-left: 15px solid white;
     border-right: 15px solid white; }
 
+aside ul {
+  text-decoration: none;
+  list-style: none;
+  padding: 0%; }
+aside p {
+  width: 70%; }
+aside h2 {
+  color: #e76636; }
+aside .photo-g img {
+  margin-top: 2%;
+  text-align: center;
+  border: 1px solid #e76636; }
+  aside .photo-g img img {
+    border: 1px solid green; }
+
+section .row {
+  margin-top: 2%; }
+
+h4 {
+  color: #e76636; }
+
 .blog-info {
+  margin-top: 2%;
   color: #929292;
-  border: 1px solid gray; }
-  .blog-info h4 {
-    color: #e76636; }
+  width: 100%;
+  border: 1px solid #bcbcbc; }
+  .blog-info h3 {
+    font-size: 20px; }
+
+.blog-info:before, .blog-info:after {
+  content: "";
+  display: block;
+  clear: both;
+  box-sizing: border-box; }
+
+.col-xs-3:hover {
+  -webkit-box-shadow: 2px -4px 25px 0px rgba(50, 50, 50, 0.68);
+  -moz-box-shadow: 2px -4px 25px 0px rgba(50, 50, 50, 0.68);
+  box-shadow: 2px -4px 25px 0px #e76636; }
 
 #photo .pink {
   height: 50px;
@@ -60,8 +94,6 @@ footer {
 #imagenes .check h2 {
   float: left;
   width: 80%; }
-#imagenes .col-xs-3 img {
-  width: 100%; }
 #imagenes .col-xs-4 {
   text-align: left; }
   #imagenes .col-xs-4 a {
@@ -78,17 +110,38 @@ footer {
     background-color: #e76636;
     border-left: 15px solid white;
     border-right: 15px solid white; }
+  .-h1 .row {
+    margin-top: 0%; }
 
 #about-us .col-xs-8 #parrafo-right {
   display: inline-block;
   float: right;
   width: 67%; }
-#about-us aside ul {
-  text-decoration: none;
-  list-style: none;
-  padding: 0%; }
-#about-us aside img {
-  margin-top: 2%;
-  text-align: center; }
+#about-us .col-xs-8 blockquote p {
+  color: #e76636; }
+
+.categoria .row {
+  margin-top: 5%; }
+
+.contact .col-xs-5 {
+  margin-top: 3%; }
+  .contact .col-xs-5 input, .contact .col-xs-5 textarea {
+    margin-bottom: 3%;
+    border-color: #e76636; }
+
+.blog .separador {
+  margin-top: 3%; }
+.blog button {
+  background-color: #e76636;
+  color: white;
+  margin-top: 5%;
+  width: 50px;
+  height: 50px; }
+
+.blog1 {
+  background-image: url("../../images/icon1.png");
+  background-size: 100px;
+  background-position: top left;
+  background-repeat: no-repeat; }
 
 /*# sourceMappingURL=main.css.map */
