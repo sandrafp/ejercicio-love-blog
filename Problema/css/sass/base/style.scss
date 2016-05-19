@@ -1,6 +1,6 @@
 // style.home 
 section .row {
-	margin-top: 2%;
+	 margin-top: 2%;
 }
 h4 {
 	color: $bg-orange;
@@ -102,7 +102,11 @@ h4 {
 	}
 }
 // style blog
-.blog {
+.blog	{
+	margin-top: 2%;
+	.row {
+		margin-top: 0%;
+	}
 	.separador {
 		margin-top: 3%;
 	}
@@ -115,11 +119,32 @@ h4 {
 	}
 }
 .blog1 {
-		background-image:url("../../images/icon1.png");
-		background-size: 100px;
-		background-position: top left;
+	@include bg-section;
+	background-image:url("../../images/icon1.png");
+}
+.blog2 {
+	@include bg-section;
+	background-image:url("../../images/icon2.png");
+}
+.blog3 {
+	@include bg-section;
+	background-image:url("../../images/icon3.png");
+}
+.blog4 {
+	@include bg-section;
+	background-image:url("../../images/icon4.png");
+	.bg-blog {
+		padding: 5% 0%;
+		background-image:url("../../images/quote_bg.png");
+		background-size: 100%;
 		background-repeat: no-repeat;
 	}
+}
+.blog5 {
+	@include bg-section;
+	background-image:url("../../images/icon5.png");
+}
+
 
 
 

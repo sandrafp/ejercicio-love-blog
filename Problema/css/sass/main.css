@@ -42,8 +42,10 @@ aside .photo-g img {
   margin-top: 2%;
   text-align: center;
   border: 1px solid #e76636; }
-  aside .photo-g img img {
-    border: 1px solid green; }
+  aside .photo-g img:hover {
+    -webkit-box-shadow: 1px -2px 13px 0px rgba(131, 5, 177, 0.75);
+    -moz-box-shadow: 1px -2px 13px 0px rgba(131, 5, 177, 0.75);
+    box-shadow: 1px -2px 13px 0px rgba(131, 5, 177, 0.75); }
 
 section .row {
   margin-top: 2%; }
@@ -129,19 +131,52 @@ h4 {
     margin-bottom: 3%;
     border-color: #e76636; }
 
-.blog .separador {
-  margin-top: 3%; }
-.blog button {
-  background-color: #e76636;
-  color: white;
-  margin-top: 5%;
-  width: 50px;
-  height: 50px; }
+.blog {
+  margin-top: 2%; }
+  .blog .row {
+    margin-top: 0%; }
+  .blog .separador {
+    margin-top: 3%; }
+  .blog button {
+    background-color: #e76636;
+    color: white;
+    margin-top: 5%;
+    width: 50px;
+    height: 50px; }
 
 .blog1 {
-  background-image: url("../../images/icon1.png");
-  background-size: 100px;
+  background-size: 90px;
   background-position: top left;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-image: url("../../images/icon1.png"); }
+
+.blog2 {
+  background-size: 90px;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-image: url("../../images/icon2.png"); }
+
+.blog3 {
+  background-size: 90px;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-image: url("../../images/icon3.png"); }
+
+.blog4 {
+  background-size: 90px;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-image: url("../../images/icon4.png"); }
+  .blog4 .bg-blog {
+    padding: 5% 0%;
+    background-image: url("../../images/quote_bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat; }
+
+.blog5 {
+  background-size: 90px;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-image: url("../../images/icon5.png"); }
 
 /*# sourceMappingURL=main.css.map */
